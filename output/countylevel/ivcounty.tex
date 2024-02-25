@@ -1,0 +1,37 @@
+\begin{table}[!htbp]\centering
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\caption{Two-Stage Least Squares Regressions of Greenfield FDI on Education Stimulus, County-Level}
+\begin{tabular}{l*{3}{c}}
+\hline\hline
+                    &\multicolumn{1}{c}{(1)}   &\multicolumn{1}{c}{(2)}   &\multicolumn{1}{c}{(3)}   \\
+                    &FDI All Counties   &FDI New Counties   &FDI Old Counties   \\
+\hline
+Education Stimulus Per Capita&        0.00   &        0.00   &       -0.00** \\
+                    &      (0.00)   &      (0.00)   &      (0.00)   \\
+Ln(Real Incentives) &        0.06***&        0.06***&       -0.00   \\
+                    &      (0.02)   &      (0.01)   &      (0.01)   \\
+Competitive County  &        0.17** &        0.19** &       -0.02   \\
+                    &      (0.07)   &      (0.08)   &      (0.02)   \\
+John McCain Vote Share&        0.00   &        0.00   &       -0.00   \\
+                    &      (0.01)   &      (0.00)   &      (0.00)   \\
+Unemployment Rate   &        0.00   &       -0.03   &        0.03** \\
+                    &      (0.03)   &      (0.03)   &      (0.01)   \\
+Labor Force         &        1.65***&        0.51   &        1.15***\\
+                    &      (0.50)   &      (0.41)   &      (0.19)   \\
+Representative Partisanship&        0.06   &        0.07   &       -0.01   \\
+                    &      (0.06)   &      (0.05)   &      (0.03)   \\
+Ln(Patent Count)    &        0.02***&        0.02***&       -0.00   \\
+                    &      (0.01)   &      (0.01)   &      (0.00)   \\
+Ln(M\&A Count)      &        0.03***&        0.03***&        0.00   \\
+                    &      (0.01)   &      (0.01)   &      (0.00)   \\
+Foreign Greenfield Investment&        1.65***&       -0.55***&        2.20***\\
+                    &      (0.34)   &      (0.21)   &      (0.27)   \\
+Ln(Domestic Greenfield Investment)&        0.03*  &        0.01   &        0.02*  \\
+                    &      (0.02)   &      (0.01)   &      (0.01)   \\
+\hline
+Observations        &     3049.00   &     3049.00   &     3049.00   \\
+State-Fixed Effects &         yes   &         yes   &         yes   \\
+\hline\hline
+\multicolumn{4}{p{\linewidth}}{\footnotesize The dependent variables are the log of total greenfield FDI in all counties, new counties and old counties respectively. The independent variables are the amount of education stimulus scaled by a county's labor population. Education stimulus is instrumented by the share of special education children in county's schools. Models include state fixed-effects. Unless otherwise stated, variables are from 2008. Robust standard errors are in parentheses and clustered by state. * p$<$0.10, ** p$<$0.05, *** p$<$0.010}\\
+\end{tabular}
+\end{table}

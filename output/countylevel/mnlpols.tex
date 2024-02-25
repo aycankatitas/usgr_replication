@@ -1,0 +1,41 @@
+\begin{table}[!htbp]\centering
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\caption{Multinomial Logit Regression of Greenfield FDI on Competitive Counties and Mass Layoffs}
+\begin{tabular}{l*{6}{c}}
+\hline\hline
+                    &         (1)   &               &         (2)   &               &         (3)   &               \\
+                    &Old_Counties   &New_Counties   &Old_Counties   &New_Counties   &Old_Counties   &New_Counties   \\
+\hline
+Competitive County=1&       -1.13   &        0.43** &       -1.31   &        0.42** &        0.01   &        0.27   \\
+                    &      (0.94)   &      (0.17)   &      (0.96)   &      (0.18)   &      (1.09)   &      (0.22)   \\
+2000-2006 Mass Layoffs&               &               &        7.02   &        4.51   &       23.64***&        2.58   \\
+                    &               &               &      (9.84)   &      (3.11)   &      (8.33)   &      (3.02)   \\
+Competitive County=1 $\times$ 2000-2006 Mass Layoffs&               &               &               &               &       -9.05*  &        3.66*  \\
+                    &               &               &               &               &      (5.31)   &      (2.12)   \\
+Ln(Education Stimulus)&        0.14   &        0.68***&        0.27   &        0.66***&       -0.42   &        0.66***\\
+                    &      (0.68)   &      (0.12)   &      (0.82)   &      (0.12)   &      (0.96)   &      (0.12)   \\
+Ln(Real Incentives) &       -0.04   &        0.10***&       -0.06   &        0.10***&       -0.14   &        0.10***\\
+                    &      (0.17)   &      (0.02)   &      (0.16)   &      (0.02)   &      (0.16)   &      (0.02)   \\
+John McCain Vote Share&        0.06   &        0.00   &        0.07   &        0.00   &        0.07   &        0.00   \\
+                    &      (0.08)   &      (0.01)   &      (0.09)   &      (0.01)   &      (0.10)   &      (0.01)   \\
+Unemployment Rate   &        1.45*  &        0.08** &        1.32** &        0.06   &        1.47** &        0.06*  \\
+                    &      (0.76)   &      (0.04)   &      (0.67)   &      (0.04)   &      (0.60)   &      (0.03)   \\
+Labor Force         &        0.71   &        0.02   &       -2.37   &       -1.80   &       -5.32   &       -1.55   \\
+                    &      (1.08)   &      (0.72)   &      (5.07)   &      (1.38)   &      (3.67)   &      (1.42)   \\
+Representative Partisanship&       -2.56   &        0.25*  &       -2.56   &        0.28*  &       -3.28   &        0.29*  \\
+                    &      (1.74)   &      (0.15)   &      (1.80)   &      (0.16)   &      (2.12)   &      (0.16)   \\
+Ln(Patent Count)    &        0.88** &        0.03   &        0.81** &        0.03*  &        1.08** &        0.03*  \\
+                    &      (0.37)   &      (0.02)   &      (0.38)   &      (0.02)   &      (0.45)   &      (0.02)   \\
+Ln(M\&A Count)      &        0.13   &        0.02   &        0.14   &        0.02   &        0.15   &        0.02   \\
+                    &      (0.08)   &      (0.03)   &      (0.10)   &      (0.03)   &      (0.10)   &      (0.03)   \\
+Foreign Greenfield Investment&       28.38***&       -0.72   &       26.14***&       -0.70   &       27.59***&       -0.75   \\
+                    &      (9.57)   &      (0.49)   &      (6.78)   &      (0.49)   &      (4.14)   &      (0.53)   \\
+Ln(Domestic Greenfield Investment)&        0.09   &       -0.02   &        0.11   &       -0.02   &        0.18   &       -0.02   \\
+                    &      (0.10)   &      (0.02)   &      (0.10)   &      (0.02)   &      (0.12)   &      (0.02)   \\
+\hline
+Observations        &     3059.00   &               &     3059.00   &               &     3059.00   &               \\
+State-Fixed Effects &         yes   &               &         yes   &               &         yes   &               \\
+\hline\hline
+\multicolumn{7}{p{\linewidth}}{\footnotesize Multinomial logit coefficients estimated via maximum likelihood. The outcome is a categorical variable that indicates  never, old and new county status. The baseline category is never counties. An election is competitive if the difference in two-party vote share is less than 10 percentage points. All models include state fixed effects. Robust standard errors are in parentheses and clustered by state. * p$<$0.10, ** p$<$0.05, *** p$<$0.010}\\
+\end{tabular}
+\end{table}

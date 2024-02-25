@@ -1,0 +1,37 @@
+\begin{table}[!htbp]\centering
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\caption{Multinomial Logit Regression of Greenfield FDI on Education Stimulus to Community Colleges and Real-Time Incentives}
+\begin{tabular}{l*{2}{c}}
+\hline\hline
+                    &         (1)   &               \\
+                    &Old_Counties   &New_Counties   \\
+\hline
+Competitive County=1&       -1.17   &        0.39** \\
+                    &      (1.04)   &      (0.18)   \\
+Ln(Education Stimulus to Community Colleges)&       -0.06   &       -0.01   \\
+                    &      (0.11)   &      (0.03)   \\
+Ln(Real Incentives) &       -0.02   &        0.13***\\
+                    &      (0.16)   &      (0.02)   \\
+John McCain Vote Share&        0.06   &       -0.01   \\
+                    &      (0.06)   &      (0.01)   \\
+Unemployment Rate   &        1.49*  &        0.08** \\
+                    &      (0.80)   &      (0.03)   \\
+Labor Force         &        1.61** &        1.50*  \\
+                    &      (0.79)   &      (0.83)   \\
+Representative Partisanship&       -2.64   &        0.33** \\
+                    &      (1.66)   &      (0.15)   \\
+Ln(Patent Count)    &        0.93** &        0.10***\\
+                    &      (0.39)   &      (0.02)   \\
+Ln(M\&A Count)      &        0.12   &        0.07***\\
+                    &      (0.09)   &      (0.02)   \\
+Foreign Greenfield Investment&       27.74***&       -0.54   \\
+                    &     (10.02)   &      (0.45)   \\
+Ln(Domestic Greenfield Investment)&        0.09   &       -0.00   \\
+                    &      (0.10)   &      (0.02)   \\
+\hline
+Observations        &     3059.00   &               \\
+State-Fixed Effects &         yes   &               \\
+\hline\hline
+\multicolumn{3}{p{\linewidth}}{\footnotesize Multinomial logit coefficients estimated via maximum likelihood. The outcome is a categorical variable that indicates  never, old and new county status. The baseline category is never counties. Education stimulus variable is measured by the subset of state stimulus to local governments allocated to community colleges. All models include state fixed effects. Robust standard errors are in parentheses and clustered by state. * p$<$0.10, ** p$<$0.05, *** p$<$0.010}\\
+\end{tabular}
+\end{table}

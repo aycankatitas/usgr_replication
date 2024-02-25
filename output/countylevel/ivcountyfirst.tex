@@ -1,0 +1,39 @@
+\begin{table}[!htbp]\centering
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\caption{First Stage Regression Results for County-Level Local Government Incentives and Education Stimulus}
+\begin{tabular}{l*{1}{c}}
+\hline\hline
+                    &\multicolumn{1}{c}{(1)}   \\
+                    &Education Stimulus Per Capita   \\
+\hline
+Special Education Children&     1366.88***\\
+                    &    (419.50)   \\
+Ln(Real Incentives) &       -1.17   \\
+                    &      (1.93)   \\
+Competitive County=0&        0.00   \\
+                    &         (.)   \\
+Competitive County=1&      -33.91***\\
+                    &     (10.09)   \\
+John McCain Vote Share&       -6.79***\\
+                    &      (1.13)   \\
+Unemployment Rate   &       32.34***\\
+                    &      (4.54)   \\
+Labor Force         &      -19.93   \\
+                    &     (52.79)   \\
+Representative Partisanship&       24.97   \\
+                    &     (15.61)   \\
+Ln(Patent Count)    &       -0.95   \\
+                    &      (1.37)   \\
+Ln(M\&A Count)      &        2.18** \\
+                    &      (0.98)   \\
+Foreign Greenfield Investment&        7.15   \\
+                    &     (22.42)   \\
+Ln(Domestic Greenfield Investment)&        0.31   \\
+                    &      (1.61)   \\
+\hline
+Observations        &     3049.00   \\
+State-Fixed Effects &         yes   \\
+\hline\hline
+\multicolumn{2}{p{\linewidth}}{\footnotesize The dependent variable is the amount of education stimulus scaled by a county's labor force. The independent variable is the number of special education students in a county divided by the county's school age population. Models include state fixed-effects. Unless otherwise stated, variables are from 2008. Robust standard errors are in parentheses and clustered by state. * p$<$0.10, ** p$<$0.05, *** p$<$0.010}\\
+\end{tabular}
+\end{table}

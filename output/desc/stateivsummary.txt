@@ -1,0 +1,34 @@
+
+% Table created by stargazer v.5.2.3 by Marek Hlavac, Social Policy Institute. E-mail: marek.hlavac at gmail.com
+% Date and time: Thu, Oct 19, 2023 - 15:23:00
+\begin{table}[!htbp] \centering 
+  \caption{Summary Statistics and Data Sources for State-Level Regressions} 
+  \label{} 
+\begin{tabular}{@{\extracolsep{5pt}}lcccc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+Statistic & \multicolumn{1}{c}{Mean} & \multicolumn{1}{c}{St. Dev.} & \multicolumn{1}{c}{Min} & \multicolumn{1}{c}{Max} \\ 
+\hline \\[-1.8ex] 
+New Manufacturing FDI (mil)\ 2009-2011 & 436 & 505 & 0 & 1,835 \\ 
+New Manufacturing FDI (mil) \ New Counties 2009-2011 & 128 & 237 & 0 & 1,116 \\ 
+New Manufacturing FDI (mil)\  Old Counties 2009-2011 & 308 & 409 & 0 & 1,703 \\ 
+New Manufacturing FDI (mil)\ 2006-2008 & 152 & 278 & 0 & 1,419 \\ 
+New Manufacturing Domestic Investment (mil) \ 2009-2011 & 662 & 670 & 0 & 2,405 \\ 
+Real-Time Incentives (mil) & 115 & 272 & 0 & 1,874 \\ 
+Tax Incentives (mil) & 384 & 1,140 & 0 & 6,796 \\ 
+Land Incentives (mil) & 41 & 254 & 0 & 1,812 \\ 
+Cash Incentives (mil) & 58 & 84 & 0 & 321 \\ 
+State and Local \ Real-Time Incentives (mil) & 118 & 274 & 0 & 1,876 \\ 
+State and Local \ Tax Incentives (mil) & 489 & 1,201 & 0 & 6,987 \\ 
+Medicaid Stimulus 2009-2010 (mil) & 1,198 & 1,572 & 55 & 7,776 \\ 
+Medicare Spending 2007 (mil) & 6,173 & 8,048 & 425 & 43,564 \\ 
+\% Kerry Vote Share 2004 & 47 & 10 & 26 & 89 \\ 
+\% Union Share 2007 & 11 & 5 & 3 & 25 \\ 
+GDP per 16+ person 2008 & 49,199 & 17,196 & 31,907 & 154,890 \\ 
+\% Manufacturing Employment 2008 & 11 & 4 & 1 & 20 \\ 
+Population 16+ 2008 (mil) & 5 & 5 & 0 & 28 \\ 
+Employment Change 2008 & $-$56,212 & 75,045 & $-$431,300 & 1,700 \\ 
+\% Unemployment Rate 2008 & 5 & 1 & 3 & 8 \\ 
+\hline \\[-1.8ex] 
+\end{tabular} 
+\end{table} 

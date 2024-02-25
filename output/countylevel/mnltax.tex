@@ -1,0 +1,35 @@
+\begin{table}[!htbp]\centering
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\caption{Multinomial Logit Regression of Greenfield FDI on Stimulus and Tax Incentives}
+\begin{tabular}{l*{2}{c}}
+\hline\hline
+                    &         (1)   &               \\
+                    &Old_Counties   &New_Counties   \\
+\hline
+Ln(Tax Incentives)  &       -0.13   &        0.06   \\
+                    &      (0.17)   &      (0.04)   \\
+Ln(Education Stimulus)&        0.27   &        0.69***\\
+                    &      (0.81)   &      (0.12)   \\
+John McCain Vote Share&        0.04   &        0.01   \\
+                    &      (0.07)   &      (0.01)   \\
+Unemployment Rate   &        1.41*  &        0.09** \\
+                    &      (0.77)   &      (0.04)   \\
+Labor Force         &        0.60   &        0.04   \\
+                    &      (1.36)   &      (0.72)   \\
+Representative Partisanship&       -1.94   &        0.19   \\
+                    &      (1.23)   &      (0.15)   \\
+Ln(Patent Count)    &        0.83** &        0.03   \\
+                    &      (0.37)   &      (0.02)   \\
+Ln(M\&A Count)      &        0.14   &        0.02   \\
+                    &      (0.10)   &      (0.03)   \\
+Foreign Greenfield Investment&       28.85***&       -0.64   \\
+                    &      (9.43)   &      (0.51)   \\
+Ln(Domestic Greenfield Investment)&        0.08   &       -0.01   \\
+                    &      (0.09)   &      (0.02)   \\
+\hline
+Observations        &     3059.00   &               \\
+State-Fixed Effects &         yes   &               \\
+\hline\hline
+\multicolumn{3}{p{\linewidth}}{\footnotesize Multinomial logit coefficients estimated via maximum likelihood. The outcome is a categorical variable that indicates  never, old and new county status. The baseline category is never counties. The independent variable is tax incentives. The model include state-fixed effects. Robust standard errors are in parentheses and clustered by state. * p$<$0.10, ** p$<$0.05, *** p$<$0.010}\\
+\end{tabular}
+\end{table}

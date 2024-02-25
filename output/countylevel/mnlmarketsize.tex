@@ -1,0 +1,39 @@
+\begin{table}[!htbp]\centering
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\caption{Multinomial Logit Results - Including County Market Size}
+\begin{tabular}{l*{2}{c}}
+\hline\hline
+                    &         (1)   &               \\
+                    &Old_Counties   &New_Counties   \\
+\hline
+Ln(Education Stimulus)&        0.31   &        0.56***\\
+                    &      (0.81)   &      (0.14)   \\
+Ln(Real Incentives) &       -0.04   &        0.06   \\
+                    &      (0.17)   &      (0.04)   \\
+Competitive County  &       -0.74   &        0.45** \\
+                    &      (0.88)   &      (0.23)   \\
+John McCain Vote Share&        0.05   &       -0.00   \\
+                    &      (0.09)   &      (0.01)   \\
+Unemployment Rate   &        1.39   &        0.13*  \\
+                    &      (0.90)   &      (0.07)   \\
+Labor Force         &        0.57   &        0.07   \\
+                    &      (1.08)   &      (0.76)   \\
+Representative Partisanship&       -2.12   &        0.38*  \\
+                    &      (1.78)   &      (0.22)   \\
+Ln(Patent Count)    &        0.74*  &        0.07   \\
+                    &      (0.41)   &      (0.05)   \\
+Ln(M\&A Count)      &        0.12   &       -0.00   \\
+                    &      (0.09)   &      (0.03)   \\
+Foreign Greenfield Investment&       33.19***&       -0.77   \\
+                    &      (2.23)   &      (0.54)   \\
+Ln(Domestic Greenfield Investment)&        0.08   &       -0.03   \\
+                    &      (0.09)   &      (0.03)   \\
+GDP Per Capita      &       -0.00   &        0.00   \\
+                    &      (0.00)   &      (0.00)   \\
+\hline
+Observations        &     1119.00   &               \\
+State-Fixed Effects &         yes   &               \\
+\hline\hline
+\multicolumn{3}{p{\linewidth}}{\footnotesize Multinomial logit coefficients estimated via maximum likelihood. The dependent variable is a categorical variable that indicates a never, old and new county status. The baseline category is never counties. An election is competitive if the difference in two-party vote share is less than 10 percentage-points. Model 1 and 2 include state-fixed effects. GDP per capita measure is available only for metropolitan statistical areas. Unless otherwise stated, variables are from 2008. Robust standard errors are in parentheses and clustered by state. * p$<$0.10, ** p$<$0.05, *** p$<$0.010}\\
+\end{tabular}
+\end{table}

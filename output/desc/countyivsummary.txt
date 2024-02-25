@@ -1,0 +1,32 @@
+
+% Table created by stargazer v.5.2.3 by Marek Hlavac, Social Policy Institute. E-mail: marek.hlavac at gmail.com
+% Date and time: Thu, Oct 19, 2023 - 15:23:00
+\begin{table}[!htbp] \centering 
+  \caption{Summary Statistics and Data Sources for County-Level Regressions} 
+  \label{} 
+\begin{tabular}{@{\extracolsep{5pt}}lcccc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+Statistic & \multicolumn{1}{c}{Mean} & \multicolumn{1}{c}{St. Dev.} & \multicolumn{1}{c}{Min} & \multicolumn{1}{c}{Max} \\ 
+\hline \\[-1.8ex] 
+Education Stimulus (Logged) & 1.58 & 1.76 & $-$9.21 & 7.95 \\ 
+Transportation Stimulus (Logged) & $-$1.14 & 4.66 & $-$9.21 & 7.30 \\ 
+Energy Stimulus (Logged) & $-$6.68 & 4.27 & $-$9.21 & 7.35 \\ 
+Infrastructure Stimulus (Logged) & $-$6.67 & 4.35 & $-$9.21 & 4.83 \\ 
+Real-Time Incentives (Logged) & $-$7.35 & 3.56 & $-$9.21 & 4.86 \\ 
+Cash Incentives (Logged) & $-$7.62 & 3.31 & $-$9.21 & 3.73 \\ 
+Land Incentives (Logged) & $-$9.01 & 1.36 & $-$9.21 & 4.86 \\ 
+Tax Incentives (Logged) & $-$7.56 & 3.76 & $-$9.21 & 7.43 \\ 
+Competitive County & 0.26 & 0.44 & 0 & 1 \\ 
+Governor Eligible to Run & 0.31 & 0.46 & 0 & 1 \\ 
+Mass Layoffs (in 100,000s) & 0.02 & 0.09 & 0.00 & 2.97 \\ 
+McCain Vote Share 2008 & 60.46 & 12.46 & 12 & 92 \\ 
+\% Unemployment Rate 2008 & 5.81 & 2.05 & 1.30 & 22.60 \\ 
+Labor Force (in millions) & 0.05 & 0.15 & 0.0000 & 4.93 \\ 
+Patent Count (Logged) 2008 & $-$2.96 & 5.54 & $-$9.21 & 8.88 \\ 
+M&A 2008 & $-$6.13 & 4.70 & $-$9.21 & 6.07 \\ 
+Domestic Greenfield Investment 2008 & $-$8.76 & 2.39 & $-$9.21 & 8.56 \\ 
+lagged\_gfield & 0.04 & 0.20 & 0 & 1 \\ 
+\hline \\[-1.8ex] 
+\end{tabular} 
+\end{table} 
